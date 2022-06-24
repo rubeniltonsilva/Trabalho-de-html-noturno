@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+
+
+
+	<style type="text/css">
+	
+	body{
+		margin: 0 auto;
+	}
+
+	table{
+		width:80%;
+		margin: 0 auto;
+		margin-top: 0px;
+	}
+
+	#cabecalho{
+		float: right;
+		margin-top:30px;
+		margin-right: 20px;	
+	}
+
+	p{			
+		margin-right: 200px;
+		margin-left: 200px;
+	}
+
+	button{
+		margin-right: 200px;
+		margin-left: 200px;
+	}
+
+	h3{
+		margin-left:200px ;
+		margin-top: 30px;
+	}
+
+	
+	footer{
+		padding: 10px;
+		text-align: center;
+	}
+</style>
+</head>
+
+<body>
+	<table>
+
+<tr>
+	<td>
+	
+	<div  id ="cabecalho">
+	<a href="inicio.html">Inicio</a>
+	<a href="jogabilidade_e_personagens.html">Jogabilidade-e-personagens</a>
+	<a href="criar-personagen.html">Criação-de-personagens</a>
+	<a href="Sobre.html">Sobre</a>
+	</div>
+	<div id="cabecalho2">
+	<h1>BTM@EB: JOGABILIDADE E PERSONAGENS</h1>		 					
+	</div>	
+		 		
+	</td>	 	
+	</tr>
+	<tr>
+	<td><h3>Jogabibilidade</h3></td>
+	</tr>
+	<tr>
+	<td>
+	<p>A  batalha  é  realizada  em  um  cenário  fixo  no  qual  podem  ser  alocados  até oito jogadores, sendo que só pode haver um personagem de cada nação. O cenário é fixo porque a batalha inteira ocorre neste único cenário escolhido. Dentre os cenários possíveis, o jogo pode definirqualquer uma das oito casasdas nações.Não  existem  alianças  e  “amizades”  entre  os  personagens,  portanto  eles  se enfrentam em duelos de um contra o outro em cada rodadae o vencedor avança para a próxima rodada. No início da rodada, ospersonagens são distribuídosaleatoriamente em pares  para  realizarem a batalhae,  caso a  quantidade  de  personagens  na  batalha  seja ímpar, um deles ficará fora da batalha e se classificará automaticamente para a rodada seguinte.Os vencedores de uma rodada são novamente distribuídos aleatoriamente para se  enfrentarem  em  uma  nova  batalha.  As  rodadas  são  repetidas  de  acordo  com  a quantidade  restante  de  personagens  na  arena,  até  que  ocorra  a  batalha  finale  seja definido um personagem como o vencedor.O jogadorque “sobrou” na rodada anterior não pode sobrar novamentena rodada seguinte. AFigura 1exemplifica um cenário com cinco jogadores.
+	</p>
+	<p>Abatalha é realizada em turnos de duelosdiretos entre dois personagens, conforme foi descrito anteriormente. Porém, é preciso descrever com mais detalhes como se deve determinar o vencedor de cada duelo.Antes,  deve-se  observar  que um duelopossui  como  informações de  entrada:o cenário da batalhaeos dois personagens do confrontocom as suas características. Após o confronto, a  informação de  saída  é o  vencedordo confrontocom  os  danos que  sofreue infringiu.Em outras palavras, conforme explicita a Figura 2, é preciso saber explicar o que ocorreu no duelo.</p>
+
+	 	<p>O confronto ocorre em turnosno qual cada personagem faz uma jogada que pode serataque, defesaou movimentação em direção ao adversário.Jogador AJogador BJogador CJogador DJogador EJogador BJogador CJogador BJogador CJogador EParticipantes da rodada: Jogador A, Jogador B, Jogador C, Jogador D e Jogador E.1ª rodadaParticipantes da rodada: Jogador B, Jogador C e Jogador E.2ª rodadaJogador BJogador CParticipantes da rodada: Jogador BeJogador C.3ª rodadaJogador BJogador CDueloEntradaSaída-cenário da batalha-personagens do duelo-vencedor do duelo-danos sofridos por cada personagem
+O ataqueé o golpe desferido pelo personagem no adversário.O golpe possui uma probabilidade de atingir o adversárioe essa probabilidade é calculada de acordo com a sua habilidadenaquele tipo de ataque. O ataquepode serdo tipo:•ataque curto é oataque no qual o jogador está entre zero e um passo de distância do adversário; e•ataque longo é o ataque no qual o jogador está entre dois e dez passos de distância.Considera-se que o ataque atingiu o adversário se eleestiver dentro do raio de ação dos  tipos  de  ataques  previstos.  Portanto,  não  é  possível  realizar  ataque  em  distância superior a dez passos.Caso o ataque atinja o adversário, o dano causado será calculado com base nos fatores: habilidade do personagem no tipo de ataque desferido, habilidade do adversário em realizar a defesa, se o adversário está realizando a defesa e bônus ou penalidades causadaspelo cenário da batalha.Adefesa é a ação que o personagem realiza para se proteger e reduzir os danos causados  por golpes  que  podem  ser  desferidos  pelo  adversário. A  defesa  possui  uma probabilidade de reduzir o dano do ataque e essa probabilidade é calculada de acordo com a sua habilidadenaquele tipo de ataque. A defesa pode serdo tipo:•defesa  curta  éaquela  que  visa  proteger  o  personagem  do  ataque curto desferido pelo adversário; e•defesa  longa  é  aquela  que  visa  proteger  o  personagem  do  ataque  longo desferido pelo adversário.Considera-se que foi realizada a defesa se a ação do personagemé de defesa e se o  adversário  deferiu  algum  golpe  contra  ele.Caso  ocorra  a  defesa,  a  redução  do  dano causado deve consideraro tipo de ataque recebido, habilidade do adversário no tipo de ataque  desferido, a  capacidade  do  personagem  em realizar a  defesa  e  bônus  ou penalidades causadas pelo cenário da batalha.Movimentação: é o avanço do personagem na arena do confronto.Esse avanço se dá um passo por vez até que não existam mais passos entre o personagem e o adversário</p>
+	</td>
+	</tr>		 
+	 <tr>	 			
+	 <td>
+	 <h3>Personagens</h3>
+	 </td>
+	 </tr>
+     <tr>
+	 <td>	 	
+					<div class="button">						
+						<button  type="button" onclick="Novoteste()" >Leia Mais..</button>
+					</div>																	
+		</td>
+		</tr>		
+			<tr>			
+			<td colspan="2">
+     	   	<footer>   	   		
+     	   		Cursos de TI da Estácio de Brasília em 2022.1 (TIEB 2022.1)</br>Todos os direitos reservados</br>
+				(Terra- Média, locais e personagens são direitos de Tolkien Enterprises)
+     	   		</footer>			
+				</td>
+			</tr>
+</table>
+
+
+</body>
+<script src="json.js"></script>
+</html>
